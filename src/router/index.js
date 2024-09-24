@@ -10,6 +10,7 @@ import NewPassword from '../components/new-password.vue';
 import RegistrationAnak from '../components/registration-anak.vue';
 import RegistrationOrtu from '../components/registration-ortu.vue';
 import SendOtp from '../components/send-otp.vue';
+import Dashboard from '../pages/dashboard.vue';
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -25,6 +26,7 @@ const router = createRouter({
     {path:'/list-data-anak', name:'/list-data-anak', component:ListDataAnak},
     {path:'/input-otp', name:'/input-otp', component:InputOTP},
     {path:'/send-otp', name:'/send-otp', component:SendOtp},
+    {path:'/dashboard', name:'/dashboard', component:Dashboard},
   ]
 });
 
