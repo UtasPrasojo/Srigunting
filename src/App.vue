@@ -26,6 +26,7 @@ import HelloWorld from './components/HelloWorld.vue'
 // import CekEmailForgotPass from './pages/CekEmailForgotPass.vue'
 // import ForgotPassword from './pages/ForgotPassword.vue'
 import NewPassword from './components/new-password.vue'
+import Sidebar from './components/sidebar.vue'
 
 
 export default {
@@ -41,7 +42,7 @@ export default {
     // RegistrationAnak,
     // CekEmailForgotPass,
     // ForgotPassword,
-    NewPassword,
+    Sidebar,
   }
   
 }

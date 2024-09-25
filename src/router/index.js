@@ -11,6 +11,7 @@ import RegistrationAnak from '../components/registration-anak.vue';
 import RegistrationOrtu from '../components/registration-ortu.vue';
 import SendOtp from '../components/send-otp.vue';
 import Dashboard from '../pages/dashboard.vue';
+import Sidebar from '../components/sidebar.vue';
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -27,6 +28,7 @@ const router = createRouter({
     {path:'/input-otp', name:'/input-otp', component:InputOTP},
     {path:'/send-otp', name:'/send-otp', component:SendOtp},
     {path:'/dashboard', name:'/dashboard', component:Dashboard},
+    {path:'/sidebar', name:'/sidebar', component:Sidebar},
   ]
 });
 
