@@ -1,15 +1,15 @@
 import { createRouter, createWebHistory } from 'vue-router';
-import HelloWorld from '../components/HelloWorld.vue';
-import LoginForm from '../components/LoginForm.vue';
-import ForgotPassword from '../components/forgot-password.vue';
-import EmailReset from '../components/email-reset-password.vue';
-import ListDataAnak from '../components/list-data-anak.vue';
-import Registration from '../components/registration-form.vue';
-import InputOTP from '../components/Input-otp.vue';
-import NewPassword from '../components/new-password.vue';
-import RegistrationAnak from '../components/registration-anak.vue';
-import RegistrationOrtu from '../components/registration-ortu.vue';
-import SendOtp from '../components/send-otp.vue';
+import HelloWorld from '../components/auth/HelloWorld.vue';
+import LoginForm from '../components/auth/LoginForm.vue';
+import ForgotPassword from '../components/auth/forgot-password.vue';
+import EmailReset from '../components/auth/email-reset-password.vue';
+import ListDataAnak from '../components/auth/list-data-anak.vue';
+import Registration from '../components/auth/registration-form.vue';
+import InputOTP from '../components/auth/Input-otp.vue';
+import NewPassword from '../components/auth/new-password.vue';
+import RegistrationAnak from '../components/auth/registration-anak.vue';
+import RegistrationOrtu from '../components/auth/registration-ortu.vue';
+import SendOtp from '../components/auth/send-otp.vue';
 import Dashboard from '../pages/dashboard.vue';
 import Sidebar from '../components/sidebar.vue';
 

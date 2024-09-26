@@ -163,7 +163,7 @@
   
       <!-- Right Side (Image) -->
       <div class="w-1/2 hidden md:block">
-        <img src="../assets/img1.jpeg" alt="Placeholder Image" class="h-screen w-full object-cover" />
+        <img src="../../assets/img1.jpeg" alt="Placeholder Image" class="h-screen w-full object-cover" />
       </div>
     </div>
   </template>

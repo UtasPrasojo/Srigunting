@@ -15,7 +15,7 @@
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import HelloWorld from './components/auth/HelloWorld.vue'
 // import RegistrationForm from './pages/RegistrationForm.vue'
 // import LoginForm from './pages/LoginForm.vue'
 // import InputOTP from './pages/InputOTP.vue'
@@ -25,7 +25,7 @@ import HelloWorld from './components/HelloWorld.vue'
 // import RegistrationAnak from './pages/RegistrationAnak.vue'
 // import CekEmailForgotPass from './pages/CekEmailForgotPass.vue'
 // import ForgotPassword from './pages/ForgotPassword.vue'
-import NewPassword from './components/new-password.vue'
+import NewPassword from './components/auth/new-password.vue'
 import Sidebar from './components/sidebar.vue'
 
 

@@ -72,7 +72,7 @@
       <!-- Right Side (Image) -->
       <div class="w-1/2 hidden md:block">
         <img
-          src="../assets/img1.jpeg"
+          src="../../assets/img1.jpeg"
           alt="Placeholder Image"
           class="h-screen w-full object-cover"
         />

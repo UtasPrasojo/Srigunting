@@ -3,20 +3,19 @@
       <!-- Left Side (Form) -->
       <div class="w-1/2 flex justify-center items-center bg-white">
         <div class="bg-white p-8 rounded-lg w-full max-w-md">
-          <h2 class="text-center text-2xl font-bold leading-9 tracking-tight text-gray-900 mb-4"> <!-- Reduced bottom margin -->
-            Cek Email Anda
-          </h2>
           <!-- Add the image here above the heading -->
           <div class="text-center mb-4"> <!-- Reduced bottom margin -->
             <img
-              src="../assets/img2.png"
+              src="../../assets/otp.png"
               alt="OTP Image"
               class="mx-auto w-110 h-50 object-cover"
             />
           </div>
-          
+          <h2 class="text-center text-2xl font-bold leading-9 tracking-tight text-gray-900 mb-4"> <!-- Reduced bottom margin -->
+            Cek Email Anda
+          </h2>
           <p class="text-center font-medium leading-4 text-gray-900 mb-4">
-            Kami telah mengirim Intruksi Untuk Mengganti Password
+            Kami telah mengirim kode OTP untuk anda
           </p>
           <p class="text-center font-medium leading-4 text-gray-900">
             Belum Menerima? 
@@ -37,7 +36,7 @@
       <!-- Right Side (Image) -->
       <div class="w-1/2 hidden md:block">
         <img
-          src="../assets/img1.jpeg"
+          src="../../assets/img1.jpeg"
           alt="Placeholder Image"
           class="h-screen w-full object-cover"
         />
